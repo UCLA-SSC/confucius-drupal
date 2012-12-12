@@ -1,0 +1,4 @@
+name = Confucius General Module
+description = This module contains general code for UCLA CI
+core = 7.x
+package = Confucius

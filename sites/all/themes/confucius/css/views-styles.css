@@ -1,0 +1,94 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+
+/*
+ * Views' admin tabs
+ *
+ * The views admin tabs use the same classes as the secondary tabs. We prevent
+ * some of our tab styling from bleeding into (and breaking) the Views admin
+ * pages. If your sub-theme isn't used for admin pages, you can remove this
+ * entire section.
+ */
+
+.views-displays .secondary li {
+  float: none;
+  margin: 0 6px 0;
+}
+
+.views-displays .secondary a:link,
+.views-displays .secondary a:visited {
+  text-shadow: none;
+  padding: 2px 7px 3px;
+}
+
+.views-displays .secondary .open > a {
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  -o-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+}
+
+.views-displays .secondary .open > a:hover {
+  color: #333;
+}
+
+.views-displays .secondary .action-list li {
+  margin: 0;
+}
+
+.views-displays .secondary .action-list li:first-child {
+  -webkit-border-radius: 0 7px 0 0;
+  -moz-border-radius: 0 7px 0 0;
+  -ms-border-radius: 0 7px 0 0;
+  -o-border-radius: 0 7px 0 0;
+  border-radius: 0 7px 0 0;
+}
+
+.views-displays .secondary .action-list li:last-child {
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -ms-border-radius: 0 0 7px 7px;
+  -o-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+}
+
+.view-taxonomy-landing-pages p {
+  margin: 0;
+}
+
+.view-taxonomy-landing-pages .views-row {
+  margin-top: 15px;
+  margin-left: 12px;
+}
+
+.view-taxonomy-landing-pages .views-field-name a {
+  color: #36af4a;
+  font: 16px/18px FuturaBT-Book;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body.page-taxonomy-term .node-teaser h2.node-title a {
+  margin-left: 0;
+}
+
+body.page-taxonomy-term .node-teaser .field-name-body {
+  display: block;
+}
+
+body.page-taxonomy-term .term-listing-heading,
+body.page-taxonomy-term article {
+  margin-left: 12px;
+}
+
+body.page-taxonomy-term article {
+  margin-top: 25px;
+}
+
+body.page-taxonomy-term article .field-type-taxonomy-term-reference {
+  float: left;
+}

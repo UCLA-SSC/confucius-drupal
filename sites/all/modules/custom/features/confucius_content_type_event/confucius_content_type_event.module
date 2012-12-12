@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Confucius Content type Event feature.
+ */
+
+include_once 'confucius_content_type_event.features.inc';

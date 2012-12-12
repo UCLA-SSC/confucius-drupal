@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the confucius_front_slideshow feature.
+ */
+
+include_once 'confucius_front_slideshow.features.inc';

@@ -1,0 +1,110 @@
+.node-article {
+	margin: 15px 15px 0 15px;
+  
+}
+.view-articles .view-header {
+  margin: 22px 15px 0 15px;
+  font: 12px Verdana;
+}
+
+#edit-date-filter-value-year {
+	background-color:white;
+}
+
+.view-articles .views-field-title .views-field-created {
+  margin: 0 0 0 15px;
+  font: 12px Verdana;
+/*   display:inline-block;  */
+}
+
+.article-publication-name {
+  margin: 0 5px 0 15px;
+  font: italic 12px Verdana;
+  float: left;
+}
+
+.article-date {
+  font: italic 12px Verdana;
+  margin-left: 4px;
+}
+
+body .node-type-article .node-article {
+	margin-left: 15px;
+}
+
+body .node-type-article .node-article p {
+  font: normal 12px Verdana;
+  line-height: 20px;
+  background-color: yellow;
+}
+
+
+.field-name-field-pdf img {
+	display: none;
+}
+
+body.node-type-article .field {
+	margin-bottom: 10px;
+}
+
+body .node-type-article .field-name-field-pdf a, 
+body .node-type-article .field-name-field-article-url a{
+	text-decoration: none;
+	color: #36AF4A;
+}
+
+.externalLink {
+  background: url('../images/external_link.png') no-repeat scroll right center transparent;    
+  padding-right: 16px; 
+}
+
+/*********Article view****/
+
+.view-articles .views-exposed-form label {
+  float: left;
+  margin-left: 15px;
+  padding-top: 3px;
+}
+
+.view-articles  .views-exposed-form .views-widget {
+  float: left;
+  margin-left: 15px;
+}
+
+.view-articles  .views-exposed-form label span {
+  padding-left: 415px;
+  font: 11px Verdana;
+}
+
+.view-articles  .views-exposed-form .views-exposed-widget {
+  padding: 4px 0 0 0;  
+  background: #34AE4A;
+  width: 620px;
+  color: #fff;
+  font: bold 11px Verdana;
+  
+}
+
+.view-articles  .views-field-title span.field-content a {
+  font: 12px Verdana;
+  margin-left: 0;
+  line-height: 14px;
+}
+
+.view-articles  .view-empty {
+  margin-left: 15px;
+}
+
+.view-articles  .view-filters {
+  margin-bottom: 15px;
+}
+
+.view-articles .view-header p {
+	margin-bottom: 32px;
+	line-height: 1.5em;
+}
+
+.view-articles .view-content .views-field-title {
+	margin: 17px 15px 3px 15px;
+}
+

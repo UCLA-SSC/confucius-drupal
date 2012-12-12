@@ -1,0 +1,56 @@
+
+body.node-type-resource .node-resource .field {
+  float: none;
+}
+
+body.node-type-resource .node-resource .field-name-field-resource-notes {
+	clear: both;
+}
+
+#block-views-announcements-block { 
+	margin-bottom: 33px;
+}
+
+#block-views-calendar-block-2 .views-row-1 {
+	min-height: 59px;
+}
+
+#block-views-calendar-block-2 .views-row-2 {
+	min-height: 60px;
+}
+
+#block-views-calendar-block-2 .event .date {
+  margin-top: 10px;
+}
+
+#block-views-calendar-block-2 .event .month {
+  margin-top: 48px;
+}
+
+#block-views-calendar-block-2 .view-row-2 .views-field-title {
+	padding-top: 20px;
+}
+
+
+.field-type-taxonomy-term-reference {
+  float: left;
+  color: #36AF4A;
+  font: 11px Verdana;
+  border-right: 1px solid #36AF4A;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+ 
+.calendar-calendar th.mon, 
+.calendar-calendar th.tue, 
+.calendar-calendar th.wed, 
+.calendar-calendar th.thu, 
+.calendar-calendar th.fri, 
+.calendar-calendar th.sat {
+  padding-left: 22px;
+}
+
+.calendar-calendar th.sun {
+	padding-left: 28px;
+}

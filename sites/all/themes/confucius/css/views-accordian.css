@@ -1,0 +1,69 @@
+/***Here is all the styles to override Jqeury.ui.theme.css***/
+
+/* .ui-state-active .ui-icon {
+	display: none;
+} */
+
+.ui-state-active .ui-icon {
+  display: none;
+} 
+.ui-widget-content {border:none; }
+.ui-widget-header {border:none;  }
+.ui-widget-header a { border:none; }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+   border:none;
+   background: none; font-weight: normal{fwDefault}; color: #555555{fcDefault}; }
+  
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover,
+ .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{  border:none; }
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight ,
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error{
+  border:none;
+}
+
+.ui-widget-overlay,.ui-widget-shadow{
+  border:none;
+}
+.ui-state-default .ui-icon { background: url('../images/menu-collapsed.png') top left no-repeat; }
+ 
+.ui-accordion-icons .ui-accordion-header a {
+	padding-left:8px;  
+	margin-top:11px; 
+}
+.view-bio .ui-accordion-icons .ui-accordion-header a {
+	padding-left:13px;
+}
+.view-educational-resources .ui-accordion-icons,
+.view-educational-resources .ui-accordion-header a {
+  margin-top:5px;
+  padding-top:1px;
+}
+
+.view-educational-resources .ui-accordion .ui-accordion-header .ui-icon {
+  top: 33%;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: 1px;
+}
+
+.ui-state-default a:link{
+	color:#31af31;
+}
+
+.ui-state-active a:link{
+	color:#000;
+}
+.ui-accordion .ui-accordion-content {
+  padding: 0em 1.0em;
+  overflow:hidden;
+}

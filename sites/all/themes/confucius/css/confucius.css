@@ -1,0 +1,1179 @@
+/*******global**********/
+
+body {
+  font: 12px Verdana, sans-serif;
+  line-height: 1;
+}
+
+.about-us-link {
+  font: normal 1.3em FuturaBT-Book;
+  color: #34ae4a;
+  text-decoration: none;
+}
+
+#page, #main {
+  width: 940px;
+}
+
+#page .region-header {
+  clear: none;
+  float: left;
+}
+
+#page {
+  margin-top: 35px; 
+  margin-bottom: 50px;
+}
+
+#header,
+#main,
+#footer {
+  padding: 0px;
+}
+
+#header {
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+#main #content {
+  padding-left: 0px;
+}
+
+body.html #main #content {
+  width: 620px;
+}
+
+#navigation {
+  position: relative;
+  top: auto;
+  height: auto;
+  width: auto;
+  padding: 0px;
+  z-index: 900;
+}
+
+#navigation .region-navigation {
+  background-color: #36AF4A;
+  height: 35px;
+}
+
+#main {
+  padding-top: 30px;
+}
+
+#block-nice-menus-1 {
+  width: 773px;
+  float: left;
+  padding: 0px 0px 0px 0px;
+}
+
+#block-nice-menus-1 h2.block-title {
+  display: none;
+  position: relative;
+}
+
+#block-search-form {
+  margin-right: 0px;
+}
+
+#block-search-form .container-inline {
+  position: relative;
+}
+
+#block-search-form .container-inline .form-type-textfield input {
+  width: 120px;
+  margin-left: 19px;  
+}
+
+#block-search-form .form-actions {
+  position: absolute;
+  top: 1px;
+  padding-top: 1px;
+  left: 0px;
+  background-color: #9CD7A6;
+  line-height: 0px;
+}
+
+.boxes-box p {
+  margin: 0px;
+}
+
+/*******end of global***********/
+
+/*********footer style******/
+
+#footer {
+  padding: 0px;
+  position: relative;
+}
+
+body.not-front #footer {
+  margin-top: 30px;
+}
+
+#boxes-box-site_footer {
+  border-top: 1px solid #000000;
+  margin-top: 30px;
+}
+
+#boxes-box-site_footer p {
+  margin: 8px 0 0 65px;
+  font: normal 11px FuturaBT-Book;
+  float: left;
+}
+
+#boxes-box-site_footer p a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#boxes-box-site_footer p .separator {
+  margin: 0px 25px 0px 17px;
+  border-right: 1px solid #36AF4A;
+}
+
+/********end footer style*******/
+
+/********adjustments********/
+
+.sidebar-second .region-sidebar-second {
+  width: 300px;
+  margin-left: 630px;
+}
+
+/* end of adjustments */
+#navigation #block-nice-menus-1 ul li {
+  padding:  11px 0 11px 0;
+  width: 164px;
+}
+
+ul.nice-menu a {
+  padding: 0 5px 0 15px;
+}
+
+#navigation #block-nice-menus-1 ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 16px/15px FuturaBT-Book;
+  padding-right: 0px;
+  letter-spacing: 0.15em;
+}
+
+#navigation #block-nice-menus-1 ul li ul li a:hover {
+	color: #34AE4A;
+}
+
+#navigation #block-nice-menus-1 ul li.menu-path-node-2 a {
+	padding-left: 14px;
+}
+
+#navigation #block-nice-menus-1 ul li ul li {
+  padding: 0;
+}
+
+#navigation #block-nice-menus-1 ul li ul li.last {
+  padding-bottom: 5px;
+}
+
+#navigation #block-nice-menus-1 ul li ul li a {
+  font-size: 11px;
+  line-height: 17px;
+  padding-left: 15px;
+  text-transform: none;
+}
+
+#block-nice-menus-1 ul.nice-menu ul {
+  top: 35px;
+}
+
+#block-nice-menus-1 ul.nice-menu-down li.menuparent {
+  background: none;
+}
+
+ul.nice-menu-down .menuparent a {
+  padding-right: 0;
+}
+
+#block-nice-menus-1 ul.nice-menu * {
+  border: 0;
+}
+
+#block-nice-menus-1 ul.nice-menu ul li {
+  width: inherit;
+}
+
+#block-nice-menus-1 ul.nice-menu li.menu-218 ul {
+  width: 164px;
+}
+
+#block-nice-menus-1 ul.nice-menu li.menu-345 ul {
+  width: 164px;
+}
+
+#block-nice-menus-1 ul.nice-menu li.menu-418 ul {
+  width: 164px;
+}
+
+#block-nice-menus-1 ul.nice-menu li.menu-347 ul {
+  width: 164px;
+}
+
+#block-nice-menus-1 ul.nice-menu li.menu-348 ul {
+  width: 164px;
+}
+
+#navigation #block-nice-menus-1 ul.nice-menu li.first {
+  width: 164px;
+}
+
+#navigation #block-nice-menus-1 ul.nice-menu li ul li.first {
+  padding-left: 0;
+}
+
+#block-nice-menus-1 ul.nice-menu li.over {
+  background: #58595b;
+}
+
+#block-nice-menus-1 ul.nice-menu li ul li {
+  background: #58595b;
+}
+
+/*********front page***********/
+
+body.front #page-title {
+  display: none;
+}
+
+/*********blocks**********/
+
+#navigation #block-search-form {
+  float: left;
+  margin: 6px 0 0 10px;
+  height: 21px;
+}
+
+#search-block-form {
+  background-color: #9CD7A6;
+  height:24px;
+}
+
+#navigation #block-search-form .form-item-search-block-form input {
+  background-color: #9CD7A6;
+  padding: 0px;
+  border: none;
+  margin-top: 5px;
+  height: 14px;
+  font-size: 12px;
+  float: left;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header {
+  font-size: 10px;
+  margin: 29px 0px 0px 71px;
+  line-height: 13px;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li {
+  clear: both;
+  list-style: none;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li .header-location-item div {
+  float: left;
+  font: 10px futuraBT-Book;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li div.location-name {
+  width: 58px;
+  font-size: 10px;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li.last div.location-name {
+	margin-top: 3px;
+	height: 7px;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li.last  div.location-time {
+	height: 7px;
+	margin-top: 2px;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li.last  div.location-temp-f {
+  height: 7px;
+  margin-top: 2px;
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li.last  div.location-temp-c {
+  height: 7px;
+  margin-top: 2px;
+  
+}
+
+#block-confucius-blocks-confucius-blocks-site-header ul li div.location-time {
+  margin-right: 1px;
+  font-size: 10px;
+}
+
+/********generic theme**********/
+
+body.not-front #page-title {
+  font: normal 26px FuturaBT-Book;
+  text-transform: uppercase;
+  padding: 16px 0 0 15px;
+  line-height: 29px;
+  color: black;
+}
+
+body.not-front .title-wrapper {
+  border-bottom: 3px solid #36AF4A;
+}
+
+#block-system-user-menu {
+  width: 212px;
+  font-size: 9px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#block-system-user-menu ul {
+  margin: 6px 0 0 0;
+  position: absolute;
+  right: 0px;
+  padding: 0px;
+}
+
+#block-system-user-menu ul li.first {
+  background: none;
+  padding: 0px;
+}
+
+#block-system-user-menu ul li {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  background: url('../images/user-menu-divider.png') left center no-repeat;
+}
+
+#block-system-user-menu ul li a {
+  text-decoration: none;
+  color: #34AE4A;
+}
+body.page-node article.node-page {
+	margin: 0 15px 0 15px;
+}
+
+
+/********List-view********/
+
+.views-field-title {
+  margin-top: 20px;
+} 
+
+.views-field-title span.field-content a,
+.views-field-view-node span.field-content a {
+  color: #34ae4a;  
+  font: 16/18px FuturaBT-Book;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.views-field-field-body p {
+  margin: 18px 0 24px 9px;
+}
+
+.view-bio .views-field-field-affiliation a {
+  color: #34ae4a;
+  text-decoration: none;
+}
+/*****View-bio*******/
+
+.view-bio .view-content {
+  font: 12px/1.5em Verdana, sans-serif;
+}
+
+.view-bio  .views-row {
+  float: left;
+  margin-bottom: 15px;
+  width: 620px;
+}
+
+.view-bio .view-content h3 {
+  font: normal 1.1em FuturaBT-Book;
+  text-transform: Uppercase;
+  color: #000;
+}
+
+.view-bio .views-field-colorbox1 {
+  padding: 9px 0 0 0px;
+  margin-left: 101px;
+}
+
+.view-bio .ui-accordion .ui-accordion-content {
+  padding-left: 13px;
+}
+
+.view-bio .views-field-colorbox-1 span.field-content a { 
+  color: #34ae4a;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.view-bio .views-field-field-affiliation,
+.view-bio .views-field-field-position-held {
+  margin: 5px 0 0 105px;
+}
+
+.view-bio .views-field-colorbox {
+  float: left; 
+  padding-top: 0px;
+}
+
+.view-bio .views-field-field-team-group {
+  display: none;
+}
+.view-bio h3{
+  font-family: FuturaBT-Book;
+}
+
+.view-bio { 
+	margin-right: 15px;
+}
+
+body.node-type-bio article.node-bio 
+{
+	margin: 0 15px 0 15px;
+}
+
+
+/******Content****/
+#content .field { 
+  font: normal 12px/1.5em Verdana;
+}
+
+body.node-type-list-view-page .field-name-body {
+  margin-left: 15px;
+}
+
+.field-type-taxonomy-term-reference .field-items a {
+  font: 11px Verdana;
+  color: #34ae4a;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+  font-weight: normal;
+}
+
+/***resource Content type*/
+
+body.node-type-resource article.node-resource .field-items a {
+  color: #34ae4a;
+  text-decoration: none;
+}
+
+body.node-type-resource article.node-resource .resource_address_label {
+	float: left;
+	font-weight: bold;
+	margin-right: 3px;
+}
+
+body.node-type-resource article.node-resource .field-name-field-resource-address {
+	margin-top: 10px;
+}
+
+body.node-type-resource article.node-resource {
+ margin: 0 15px;
+}
+
+body.node-type-resource article.node-resource .resource_address {
+	margin-top: 10px;
+}
+
+body.node-type-resource article.node-resource .field-name-field-resource-address iframe {
+	width: 590px;
+}
+
+/****List-view-resources*****/
+
+.view-educational-resources p {
+  font: normal 81.25% Helvetica,Arial,Verdana,sans-serif;
+  line-height: 1.5em;
+  margin: 0 0 0 10px;
+}
+
+.view-educational-resources .view-header h2 {
+  font: normal 1.2em FuturaBT-Book;
+  text-transform: uppercase;
+  margin: 10px 0 0 10px;
+}
+
+.view-educational-resources h3 {
+  font: normal 0.9em FuturaBT-Book;
+  padding: 0;
+  margin: 0;
+}
+
+.view-educational-resources .views-field-title span.field-content a {
+  margin-left: 10px;
+  font: normal 0.7em Helvetica,Arial,Verdana,sans-serif;
+  color: #34ae4a;
+  text-decoration: none;
+}
+
+.view-educational-resources .views-field-title {
+  margin-top: 0px;
+}
+
+/*****Frontpage-callout-view********/
+.view-callout .views-row-1 {
+  float: left;
+}
+
+.view-callout .views-field-title {
+  margin: 3px 0 0 7px;
+}
+
+body.front #block-views-callout-block {
+  float: left;
+  margin-bottom: 3px;
+}
+
+.view-callout .views-field-title span.field-content a {
+  margin: 0;
+  font: normal 14px FuturaBT-Book;
+  color: #000;
+  text-decoration: none;
+}
+
+.view-display-id-block1 .views-field-title { 
+  padding-left: 27px;
+  margin-left: 0px;
+}
+.view-display-id-block1 .views-field-field-content-callout-image {
+  margin-left: 20px;
+}
+
+.view-display-id-block1 .views-field-field-content-callout-image .field-content {
+  height: 191px;
+}
+
+.view-display-id-block .views-field-field-content-callout-image .field-content {
+  height: 191px;
+} 
+
+.views-field-field-content-callout-image img {
+  border: 1px solid #34ae4a;
+  border-bottom: 6px solid #34ae4a;
+}
+
+.views-field-field-content-callout-image {
+  margin-bottom: 12px;
+}
+
+#block-views-callout-block .views-field-field-content-callout-image .field-content img {
+	max-width: none;
+}
+
+#block-views-callout-block1 .views-field-field-content-callout-image .field-content img {
+  max-width: none;
+}
+
+/*********Taxonomy menu*******/
+
+#block-menu-menu-taxonomy-menu menu,
+#block-menu-menu-taxonomy-menu ol,
+#block-menu-menu-taxonomy-menu ul, 
+#block-menu-menu-taxonomy-menu .item-list ul {
+  padding: 0;
+}
+
+#block-menu-menu-taxonomy-menu dl, 
+#block-menu-menu-taxonomy-menu menu, 
+#block-menu-menu-taxonomy-menu ol,
+#block-menu-menu-taxonomy-menu ul,
+#block-menu-menu-taxonomy-menu .item-list u {
+  margin: 0;
+}
+
+#block-menu-menu-taxonomy-menu {
+  width: 625px;
+  float: left;
+}
+
+#block-menu-menu-taxonomy-menu ul.menu a {
+  color: #fff;
+  display: block;
+  float: left;
+  font: 17px/15px FuturaBT-Book;
+  padding: 15px 0 11px; 
+  text-align: center;
+  text-decoration: none;
+  width: 138px;
+}
+
+#block-menu-menu-taxonomy-menu ul.menu li {
+  background: #34ae4a;
+  float: left;
+  list-style: none;
+  height: 42px;
+  padding: 0;
+  margin-left: 23px;
+}
+
+#block-menu-menu-taxonomy-menu ul.menu li.last {
+  margin-left: 23px;
+  width: 137px;
+}
+
+#block-menu-menu-taxonomy-menu ul.menu li.first {
+  margin-left: 0px;
+}
+
+#block-boxes-culture-corner-placeholder {
+  width: 300px;
+  height: 42px;
+  background: #000;
+  margin: 0 0 24px 640px;
+}
+
+#block-boxes-culture-corner-placeholder .boxes-box-content p {
+  text-align: center;
+}
+
+#block-boxes-culture-corner-placeholder .boxes-box-content a {
+  font: 17px/15px FuturaBT-Book;
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+}
+
+#block-boxes-culture-corner-placeholder .boxes-box-content p {
+  padding-top: 15px;
+}
+
+.region-sidebar-second .block {
+  margin-bottom: 0px;
+}
+
+#block-views-slideshow-block  {
+  margin-bottom: 26px;
+}
+
+#block-views-callout-block {
+  margin-bottom: 1.2em;
+}
+
+.block-boxes-site-footer {
+  padding-top: 2px;
+}
+
+/********Taxonomy Landing Pages****/
+
+.node-teaser h2.node-title a {
+  font: normal 16px FuturaBT-Book;
+  color: #34ae4a;
+  text-decoration: none;
+  margin-left: 10px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.node-teaser ul.links li.node-readmore a {
+  display: none;
+}
+
+.feed-icon {
+  display: none;
+}
+
+.view-bio .views-field-colorbox img {
+  border: 1px solid #c4c4c4;
+  max-width: none;
+}
+
+.view-bio .views-field-colorbox-1 {
+  margin-top: 10px;
+}
+
+.view-bio .views-row-first {
+  margin-top: 13px;
+}
+
+body.page-about-us-team #cboxLoadedContent img {
+  float: left;
+  margin: 5px 15px 0 0;
+}
+
+.node-teaser h2.node-title {
+  line-height: 1em;
+}
+
+#content article.node h1,
+#content article.node h2,
+#content article.node h3,
+#content article.node h4,
+#content article.node h5,
+#content article.node h6 {
+  font-weight: normal;
+}
+
+#content article.node a {
+  color: #36af4a;
+  text-decoration: none;
+}
+
+#content article.node a:hover {
+  text-decoration: none;
+}
+
+/******Color-box stylings******/
+#cboxLoadedContent  {
+  color: #34ae4a;
+  margin: 25px 35px 28px 40px;
+  padding-top: 10px;
+}
+
+#cboxClose {
+  bottom: 188px;
+}
+
+#cboxLoadedContent p {
+  padding: 0;
+  color: #000;
+  font: 12px/1.5em Verdana, sans-serif;
+  padding-left: 0px;
+}
+
+/*********Articles List View***/
+.view-articles .views-field-title {
+  font-size: 16px;
+  line-height: 1em;  
+}
+
+/*******Chinese Title********/
+
+ #content .field-name-field-resource-chinese-title,
+#content .field-name-field-page-chinese-title,
+#content .field-name-field-bio-chinese-title  {
+  font: normal 16px FuturaBT-Book;
+  color: #34ae4a;
+} 
+
+/*********Event Content Type******/
+
+.node-event .field-name-field-events-pdf-map img {
+  display: none;
+}
+
+body.node-type-event .node-event {
+  margin: 10px 15px 0 15px;
+}
+
+.node-event .field-name-field-address .field-item {
+	margin-bottom: 10px;
+}
+
+.node-event .field-name-field-events-pdf-map a {
+	text-decoration: none;
+}
+
+.node-event .field-name-field-event-admission-tickets .field-items p {
+	margin-top:0;
+}
+
+.node-event .field-name-field-event-image {
+	margin-top:22px;
+}
+
+.node-teaser .field-name-body {
+	display: none;
+}
+
+#block-views-calendar-block-1 {
+  border: 1px solid #97D697;
+  width: 297px;
+  height: 192px;
+}
+
+.node-event .field-name-field-address p.simple-gmap-link {
+  margin: 0; 
+} 
+
+.node-event .field-name-field-address p.simple-gmap-address {
+  margin: 0; 
+}
+
+.node-event .field-name-field-address p.simple-gmap-link a{
+	text-decoration: none;
+}
+
+/******FrontPage Upcoming events block***/
+
+#block-views-calendar-block-2 h2.block-title {
+	font: 15px/17px FuturaBT-Book;
+	text-transform: uppercase;
+	color: #fff;
+	background: #000;
+  letter-spacing: 1px;
+  padding: 6px 0 0 15px;
+	width: 285px;
+	height: 22px;
+}
+
+#block-views-calendar-block-2 .event .date {
+	margin-top: 0px;
+}
+
+#block-views-calendar-block-2 .event .month {
+	margin-top: 38px;
+}
+
+#block-views-calendar-block-2 .views-row {
+	position: relative;
+	border-bottom: none;
+}
+
+#block-views-calendar-block-2 .views-field-title {
+	margin-top: 13px;
+	padding-top: 15px;
+	margin-left: 80px;
+}
+
+#block-views-calendar-block-2 .views-row-1 {
+	border-bottom: 1px solid #34AE4A;
+	min-height: 50px;
+}
+
+#block-views-calendar-block-2 .views-row-2 .views-field-title {
+	margin-top: 9px;
+	padding-top: 15px;
+	
+}
+
+#block-views-calendar-block-2 .views-row-2 {
+  border-bottom: 6px solid #34AE4A;
+  min-height: 47px;
+}
+
+body.front #block-views-calendar-block-2 {
+	margin-top: 20px;
+}
+
+body.not-front #block-views-calendar-block-2 {
+	margin-top: 16px;
+}
+
+#block-views-calendar-block-2 .view-footer {
+	margin-top: 6px;
+	margin-left: 215px;
+}
+
+#block-views-calendar-block-2 .view-footer P {
+	margin: 0;
+}
+
+#block-views-calendar-block-2 .view-footer a {
+	font: normal 11px Verdana;
+  font-style: italic;
+  text-decoration: none;  
+  color: #000;
+}
+
+#block-views-calendar-block-2 .view-footer a:visited {
+	color: #000;
+}
+
+#block-views-calendar-block-2 .view-calendar {
+	height: 185px;
+}
+
+#block-views-calendar-block-2 .view-calendar .views-field-title span.field-content {
+	margin-left: 0px;
+}
+
+#block-views-calendar-block-2 .view-calendar .views-field-title span.field-content a {
+	margin-left: 0;
+}
+
+#block-views-calendar-block-2 .view-calendar .views-field-title span.field-content a {
+	font: normal 15px/17px FuturaBT-Book;
+}
+
+/********End of Frontpage Upcoming Evets******/
+
+#boxes-box-site_footer a:link,
+#boxes-box-site_footer a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+/********Image and Vidoe Galleries***/
+
+.field-collection-container .field-name-field-list-image {
+	width: 125px;
+	height: 85px;
+}
+
+.view-galleries .views-field-field-images {
+	width: 125px;
+	height: 85px;
+}
+
+.view-galleries .views-field-field-video {
+	width: 125px;
+  height: 85px;
+}
+
+.view-galleries .view-header p{
+	margin: 6px 0 0 430px;
+	width: 130px;
+	float: left;
+	font: normal 11px Verdana;
+}
+
+.view-galleries .views-exposed-form .views-exposed-widget {
+	padding: 4px 0 0 0 ;
+}
+
+body.node-type-image-gallery article.node-image-gallery {
+	margin: 0 15px 0 15px;
+}
+
+body.node-type-video article.node-video {
+  margin: 0 15px 0 15px;
+}
+
+body.page-newsroom #content .view-galleries .views-field-body p {
+	margin-right: 15px;
+}
+
+/************Programs Tertiary Pages*******/
+
+.taxonomy-term .taxonomy-term-description {
+	margin-bottom: 15px;
+}
+
+body.page-taxonomy-term article {
+	margin: 15px 15px 0 15px;
+}
+
+body.node-type-program article.node-program {
+	margin: 0 15px 0 15px;
+}
+
+.field-type-taxonomy-term-reference  {
+	margin-top: 25px;
+}
+
+.field-type-taxonomy-term-reference,
+.field-type-taxonomy-term-reference * {
+	float: left;
+	color: #36AF4A;
+  font: 11px Verdana;
+}
+
+.field-type-taxonomy-term-reference + .field-type-taxonomy-term-reference:before {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  content: " | ";
+  color: #36AF4A;
+  font: 11px Verdana;
+} 
+
+.view-taxonomy-landing-pages .views-field-description p {
+	margin-top: 10px;
+}
+
+.node-program .field-name-body a {
+	text-decoration: none;
+}
+
+.view-galleries .view-empty p {
+	margin-left: 15px;
+}
+
+body.page-taxonomy-term .node-program .field-type-taxonomy-term-reference a {
+	padding-right: 5px;
+}
+
+body.page-taxonomy-term article.node-program  {
+	margin: 15px 0 0 0;
+}
+
+
+/**********Front Page Announcement Block*****/
+
+#block-views-announcements-block h2.block-title {
+  color: #fff;
+  background: #000;
+  font: 15px/17px FuturaBT-Book;
+  height: 28px;
+  letter-spacing: 1px;
+  padding: 12px 0 0 14px;
+  text-transform: uppercase;
+  width: 283px;
+}
+
+#block-views-announcements-block {
+	height: 368px;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 6px solid #000;
+	margin-bottom: 30px;
+}
+
+#block-views-announcements-block .view-announcements .views-field-title span.field-content a {
+	
+	margin-left: 0;
+	font: normal 15px FuturaBT-Book;
+}
+
+#block-views-announcements-block .view-announcements .views-field-field-announcement-callout {
+  font: 11px Verdana;
+  font-style: italic;
+  color: #6D6E70;
+}
+
+#block-views-announcements-block .view-announcements  .views-field-created {
+	font: normal 11px Verdana;
+}
+
+#block-views-announcements-block .view-announcements .views-field-view-node a {
+	font: 11px Verdana;
+	text-transform: uppercase;
+	font-style: italic;
+	margin-left: 180px;
+}
+
+#block-views-announcements-block .view-announcements .views-row {
+	margin: 13px 10px 0 13px;
+}
+
+#block-views-announcements-block .view-announcements {
+	background:  url('../images/fp-announcements.png') ;
+	height: 328px;
+	overflow-x: hidden;
+}
+
+/*****Breadcrumb**/
+
+.breadcrumb ol {
+	margin-left: 12px;
+}
+
+.breadcrumb  {
+	font: 12px FuturaBT-Book;
+	line-height: 18px;
+}
+
+body.page-search .breadcrumb {
+	display: none;
+}
+
+/******End of Breadcrub****/
+
+body.page-taxonomy-term .field-type-taxonomy-term-reference {
+	margin-top: 0px;
+}
+
+.view-taxonomy-landing-pages .views-row {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+ body.page-taxonomy-term .term-listing-heading {
+  margin: 15px 15px 0 15px; 
+} 
+
+body.page-node article.node-announcements {
+  margin: 0 15px 0 15px;
+}
+
+#main #content {
+  line-height: 1.5em;
+}
+
+/*******Addthis Button*****/
+ .addthis {	
+  margin: 5px 0 0 804px; 
+	height: 15px;
+	width: 130px;
+	position: absolute;
+}
+
+body.node-type-image-gallery .addthis {
+	margin-left: 804px;
+}
+
+body.node-type-video .addthis {
+  margin-left: 804px;
+}
+
+/******End of Addthis Button*****/
+
+.view-confucius-taxonomy-term article.node-program .teaser-body-wrapper .field-type-text-with-summary p {
+	
+	margin: 20px 0 0 0 ;
+}
+
+.view-confucius-taxonomy-term .teaser-body-wrapper .field-type-text-with-summary p {
+  
+  margin: 20px 0 0 0 ;
+}
+
+.view-confucius-taxonomy-term article.node-program .teaser-body-wrapper {
+	margin: 0 15px 10px 15px;
+}
+
+.view-confucius-taxonomy-term .teaser-body-wrapper {
+  margin: 0 15px 10px 0;
+}
+
+.view-confucius-taxonomy-term article.node-program .term-listing-heading p {
+	margin: 18px 15px;
+}
+
+.view-confucius-taxonomy-term article.node-program h2.node-title  {
+	margin: 0 15px 0 15px;
+}
+
+.view-confucius-taxonomy-term article.node-program .field-name-field-page-chinese-title {
+	margin: 0 15px 0 15px;	
+}
+
+.view-confucius-taxonomy-term article.node-program  .taxonomy-wrapper {
+	margin: 0 15px 0 15px;
+}
+
+.view-confucius-taxonomy-term .views-row {
+	border-bottom: 1px solid #000;
+	padding-bottom: 20px;
+}
+
+ .view-confucius-taxonomy-term .views-row-last {
+	border: none;
+	padding-bottom: 0;
+}
+
+.view-confucius-taxonomy-term .views-row  .views-field-description {
+	border-bottom: 1px solid #000;
+}
+
+.view-confucius-taxonomy-term .views-row  .views-field-description p {
+  margin: 18px 15px 18px 15px;
+}
+

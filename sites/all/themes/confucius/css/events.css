@@ -1,0 +1,94 @@
+/* This styling sheets includes all the styling for the upcoming events page(newsroom/calendar) ****/
+
+.event {
+}
+
+.event .date {
+  font: bold 36px Helvetica;
+  color: #34ae4a;
+  margin: 0px 0 0 13px;
+  height: 41px;
+  width: 45px;
+  position: absolute;
+}
+
+.event .month {
+  font: bold 20px Helvetica;
+  color: #000;
+  text-transform: uppercase;
+  margin: 37px 0 0 15px;
+  width: 45px;
+  position: absolute;
+}
+
+.view-calendar .views-field-term-node-tid {
+	 padding-top: 15px;
+}
+.view-calendar .views-field-term-node-tid ul {
+  margin: 0;	
+}
+
+.view-calendar .views-field-term-node-tid ul li {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.view-calendar .views-field-term-node-tid ul li a {
+  text-decoration: none;
+  color: #000;
+  font: normal 10px Verdana;
+  text-transform: uppercase;
+  margin-left: 53px; 
+}
+
+.view-calendar .views-field-title span.field-content a {
+	font: normal 13px Verdana;
+}
+
+.view-calendar .views-field-title span.field-content {
+	margin-left: 73px;
+}
+.view-calendar .views-field-field-event-start-time-2 span.date-display-single {
+	font: normal 13px Verdana;
+	margin-left: 50px;
+}
+
+.view-calendar .views-field-field-event-start-time-2 .field-content {
+	margin: 2px 0 0 33px;
+	
+}
+.view-calendar .views-field-title {
+	margin: 0;
+	height: 20px;
+	margin-top: 20px;
+}
+
+.view-calendar .views-row {
+	border-bottom: 1px solid #000;
+	padding-bottom: 21px;
+	position: relative;
+	min-height: 60px;
+}
+
+.view-calendar li.pager-current {
+	display: none;
+}
+
+.view-calendar li.pager-next a,
+.view-calendar li.pager-previous a {
+ 	position: absolute;
+	text-indent: -9999px;
+	text-align: left;
+	width: 14px;
+	height: 15px; 
+  background: url(../images/calendar-next.png) no-repeat;
+  position: absolute;
+  z-index: 10;
+  margin-left: 286px;
+}
+
+.view-calendar li.pager-previous a {
+  background: url(../images/calendar-prev.png) no-repeat;
+  margin-left: 250px;
+}
+

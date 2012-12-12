@@ -1,0 +1,183 @@
+/**The Styling on this file refers to the Calender Block view on the event content type**/
+
+.view .date-nav-wrapper .date-prev,
+.view .date-nav-wrapper .date-next  {
+  -moz-border-radius: none;
+  border-radius: none;
+  background: none;
+  float: none;
+  padding: 5px 0;
+  position: absolute;
+  right: 60px;
+  margin-left: 225px;
+  text-align: right;
+  top: 0px;
+  width: auto;
+  z-index: 1;
+  font-size: 12px;
+}
+
+.view .date-nav-wrapper .date-prev a {
+	/* left: 220px; */
+  text-indent: -9999px;  
+  position: absolute;
+  background:  url(../images/prev-date.png) no-repeat;
+  width:12px;
+  height:12px;
+  z-index: 99;
+  top: 0;
+  margin-top: 6px;
+  text-align: left;
+}
+
+.view .date-nav-wrapper .date-next {
+  right: 46px;
+}
+
+.view .date-nav-wrapper .date-next a {
+  text-indent: -9999px;
+  background: url(../images/next-date.png) no-repeat;
+  position: absolute;
+  width:12px;
+  height:12px;
+  z-index: 10;
+  top:0;
+  margin: 7px 0px 0 0px;
+  text-align: left;
+}
+
+.view .date-nav-wrapper .date-heading h3 {
+  line-height: 30px;
+  font: bold 13px Helvetica;
+  color: #000;
+  margin-bottom: 4px;
+  width: 238px;
+}
+
+.view .date-nav-wrapper .date-heading a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+.view .date-nav-wrapper .date-heading a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.view .date-nav-wrapper .date-heading {
+  position: relative;
+  width: 233px;
+  top: 5px;
+  text-align: left;
+  z-index: 0;
+  margin-left: 30px;
+  border-bottom: 1px solid #D3D4D5;
+}
+
+.view .date-nav-wrapper {
+  position: relative;
+  margin-top: 5px;  
+  width: 100%;
+  height: 25px;
+}
+
+.calendar-calendar th.days {
+  background-color: #fff;
+  color: #36AF4A;
+  font: bold 13px Helvetica;
+  border: none;
+}
+
+.calendar-calendar th.sun {
+	padding: 7px 1px 1px 29px; 
+}
+
+.calendar-calendar th.mon {
+	padding: 7px 1px 1px 23px; 
+}
+
+.calendar-calendar th.tue {
+  padding: 7px 1px 1px 28px; 
+}
+
+.calendar-calendar th.wed {
+	padding: 7px 1px 1px 25px; 
+}
+
+.calendar-calendar th.thu {
+	padding: 7px 1px 1px 28px; 
+}
+
+.calendar-calendar th.fri {
+	padding: 7px 1px 1px 28px;
+}
+
+.calendar-calendar th.sat {
+	padding: 7px 0 1px 26px;
+}
+
+.calendar-calendar th.sat,
+.calendar-calendar th.wed,
+.calendar-calendar th.fri,
+.calendar-calendar th.thu {
+	text-align: left;
+}
+
+.calendar-calendar td {
+  width: 14%;
+  border: none;
+  font: normal 13px Helvetica;
+  color: #000;
+  text-align: right;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-calendar .mini-day-off {
+  padding-top: 6px;
+}
+.calendar-calendar .mini-day-on {
+  padding-top: 6px;
+}
+
+.calendar-calendar .month-view table {
+  width: 267px;
+}
+
+table .mini-day-on a {
+  text-decoration: underline;
+  color: #36AF4A;
+}
+
+.view .date-nav-wrapper .date-prev a {
+	margin-left: 0;
+}
+
+.date-nav-wrapper .date-prev a {
+	margin-left: 0;
+}
+
+.calendar-calendar tr td.today,
+.calendar-calendar tr.odd td.today,
+.calendar-calendar tr.even td.today {
+  background: none;
+}
+
+.calendar-calendar tr td.today .mini-day-on,
+.calendar-calendar tr td.today .mini-day-off {
+	background: #C6C1C1;
+	margin: 5px 0 0 23px;
+	padding: 0;
+	width: 15px;
+	height: 15px;
+}
+
+.ajax-progress .throbber {
+	display: none;
+}
+
+#block-views-calendar-block-1 li.date-prev,
+#block-views-calendar-block-1 li.date-next  {
+	width: 0px;
+}

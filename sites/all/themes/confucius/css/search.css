@@ -1,0 +1,33 @@
+.search-results {
+  list-style-type:none;
+  font:13px Verdana;
+  margin-left: -15px;
+}
+.search-results a {
+  color:#34AE4A;
+  text-decoration:none;
+}
+.search-result {
+  margin-bottom:15px;
+}
+.search-snippet-info .result-summary p {
+  display:inline;  
+}
+.search-snippet-info .result-more-link a {
+  display:block;  
+}
+.page-search #content form.search-form {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.page-search #content h2 {
+  padding-left: 15px;
+}
+form.search-form .search-advanced a {
+	color:#34AE4A;
+}
+
+
+
+
+

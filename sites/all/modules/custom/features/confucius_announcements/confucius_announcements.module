@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Confucius Announcements feature.
+ */
+
+include_once 'confucius_announcements.features.inc';

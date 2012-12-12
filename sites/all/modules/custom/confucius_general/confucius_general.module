@@ -1,0 +1,16 @@
+<?php
+
+//global define constant
+define('CONFUCUIS_THEME', drupal_get_path('theme', 'confucius'));
+
+/**
+ * Implements hook_form_alter()
+ */
+function confucius_general_form_alter(&$form, &$form_state, $form_id) {
+  switch ($form_id) {
+    case 'search_block_form':
+        $form['actions']['submit']['#type'] = 'image_button';
+        $form['actions']['submit']['#src'] = CONFUCUIS_THEME . '/images/search/confucius-search-submit.png';
+      break;
+  }
+}

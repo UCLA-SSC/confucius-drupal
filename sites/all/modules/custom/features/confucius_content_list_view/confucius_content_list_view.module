@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the confucius Content List View feature.
+ */
+
+include_once 'confucius_content_list_view.features.inc';

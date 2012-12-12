@@ -1,0 +1,16 @@
+name = Confucius Base Theme Place Holder
+description = Place Holder for base theme
+core = 7.x
+package = Confucius
+php = 5.2.4
+version = 7.x-1.0-alpha0
+project = confucius_base_theme_place_holder
+dependencies[] = boxes
+dependencies[] = context
+features[box][] = confucius_ph_sidebar
+features[box][] = ph_content_bottom
+features[box][] = ph_content_slider
+features[context][] = placeholder_front
+features[ctools][] = boxes:box:1
+features[ctools][] = context:context:3
+features[features_api][] = api:1

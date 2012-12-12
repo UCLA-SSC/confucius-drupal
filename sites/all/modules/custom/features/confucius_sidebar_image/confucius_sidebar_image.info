@@ -1,0 +1,14 @@
+name = Confucius Sidebar Image
+description = This is the 3 image content type that will be used on the right hand side of the Confucius web site.
+core = 7.x
+package = Confucius
+php = 5.2.4
+version = 7.x-1.0-alpha2
+project = confucius_sidebar_image
+dependencies[] = features
+dependencies[] = image
+features[features_api][] = api:1
+features[field][] = node-sidebarimage-body
+features[field][] = node-sidebarimage-field_sidebarimage_images
+features[image][] = side_bar_image
+features[node][] = sidebarimage

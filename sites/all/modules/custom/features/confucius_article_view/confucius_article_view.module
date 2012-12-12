@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Confucius Article View feature.
+ */
+
+include_once 'confucius_article_view.features.inc';

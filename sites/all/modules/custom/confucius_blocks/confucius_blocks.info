@@ -1,0 +1,4 @@
+name = Confucius Custom Blocks Module
+description = Provides additional custom blocks to UCLA CI
+core = 7.x
+package = Confucius

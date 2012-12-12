@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the List View Pages feature.
+ */
+
+include_once 'list_view_pages.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Confucius Base Theme Place Holder feature.
+ */
+
+include_once 'confucius_base_theme_place_holder.features.inc';

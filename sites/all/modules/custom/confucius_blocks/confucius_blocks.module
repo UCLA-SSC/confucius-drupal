@@ -1,0 +1,147 @@
+<?php
+
+/**
+ * Implements hook_theme
+ */
+function confucius_blocks_theme() {
+  $themes = array (
+    'confucius_blocks_site_header' => array(
+      'variables' => array('data' => NULL),
+    ),  
+  );
+  
+  return $themes;
+}
+
+
+function confucius_blocks_block_info() {
+  
+  $blocks['confucius_blocks_site_header'] = array(
+    'info' => t('UCLA - CI - Right Header'), 
+  );
+  
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view
+ */
+function confucius_blocks_block_view($delta = '') {
+  $block = array();
+  
+  switch ($delta) {
+    case 'confucius_blocks_site_header':
+      $block = _confucius_blocks_site_header();
+      break;
+  };
+
+  return $block;
+}
+
+/**
+ * @function : helper to convert temp c to f
+ *
+ * @dev : not in use now as google weather api is gone.
+ */
+function _confucius_blocks_convert_weather($temp_c) {
+  $length = strlen($temp_c);
+  
+  if ($length >= 5) {
+    $temp_c = substr($temp_c, 0, $length-3);
+  }
+  else {
+    $temp_c = substr($temp_c, 0, $length-2);
+  }
+  return round(((int)$temp_c*9/5)+32) . '&deg;F';
+}
+
+function _confucius_blocks_site_header() {
+  global $language;
+
+  $losangeles_time = new DateTime('now', new DateTimeZone('US/Pacific'));
+  $beijing_time = new DateTime('now', new DateTimeZone('Asia/Shanghai'));
+
+  $losangeles_timestamp = $losangeles_time->format('H:i');
+  $beijing_timestamp = $beijing_time->format('H:i');
+  
+  //temperature from yahoo with 
+  $beijing_temp_f = confucious_blocks_yahoo_api(2151330, "f");
+  $losangeles_temp_f = confucious_blocks_yahoo_api(2442047, "f");
+  $beijing_temp_c = confucious_blocks_yahoo_api(2151330);
+  $losangeles_temp_c = confucious_blocks_yahoo_api(2442047);  
+  
+  //prepares array to pass to theme function
+  $pre_content['beijing'] = array('time' => $beijing_timestamp,
+                             'temp_f' => $beijing_temp_f[0],
+                             'temp_c' => $beijing_temp_c[0],);
+  $pre_content['los_angeles'] = array('time' => $losangeles_timestamp,
+                             'temp_f' => $losangeles_temp_f[0],
+                             'temp_c' => $losangeles_temp_c[0],);
+ 
+  $subject = NULL;
+  $content = theme('confucius_blocks_site_header', array('data' => $pre_content));
+  
+  $block['subject'] = $subject;
+  $block['content'] = $content;
+  
+  return $block;
+}
+
+function theme_confucius_blocks_site_header($data) {
+  $items = array();
+  
+  foreach ($data['data'] as $key => $values) {
+    $location_title = theme('html_tag', array('element' => array('#tag' => 'div',
+                                                                 '#value' => ucwords(str_replace('_', ' ', $key)) . ':',
+                                                                 '#attributes' => array('class' => 'location-name'))));
+    $location_time = theme('html_tag', array('element' => array('#tag' => 'div',
+                                                                 '#value' => $values['time'] . ' | ',
+                                                                 '#attributes' => array('class' => 'location-time'))));;
+    $location_temp_f = theme('html_tag', array('element' => array('#tag' => 'div',
+                                                                 '#value' => $values['temp_f'] . '&deg;F/',
+                                                                 '#attributes' => array('class' => 'location-temp-f'))));;
+    $location_temp_c = theme('html_tag', array('element' => array('#tag' => 'div',
+                                                                 '#value' => $values['temp_c'] . "&deg;C",
+                                                                 '#attributes' => array('class' => 'location-temp-c'))));;
+    
+    //prepare the html_tag
+    $html_tag = array('#tag' => 'div',
+                      '#value' =>  $location_title . $location_time . $location_temp_f . $location_temp_c,
+                      '#attributes' => array('class' => 'header-location-item',)); 
+    
+    //html tag the value
+    $items[] = theme('html_tag', array('element' => $html_tag));
+
+  }
+  $output = theme('item_list', array('items' => $items));
+  $output .= theme('html_tag', array('element' => array('#tag' => 'div',
+                                                                 '#value' => '',
+                                                                 '#attributes' => array('style' => 'clear:both;'))));
+
+  return $output;
+}
+
+/**
+ * @function :
+ *  Uses Yahoo weather api
+ *
+ * @param :
+ *  - woeid can be found from yahoo weather e.g. los-angeles-2442047
+ *  - unit - f or c
+ */
+function confucious_blocks_yahoo_api($woeid, $unit = "c") {
+  //prepares xml feed
+  $yahoo_weather_url = file_get_contents("http://weather.yahooapis.com/forecastrss?w=$woeid&u=$unit");
+  $weather = simplexml_load_string($yahoo_weather_url);
+  $channel_yweather = $weather->channel->children("http://xml.weather.yahoo.com/ns/rss/1.0");
+  
+  //prepares array to be used
+  foreach($channel_yweather as $x => $channel_item) {
+    foreach($channel_item->attributes() as $k => $attr) {
+      $yw_channel[$x][$k] = $attr;
+    }
+  }
+  
+  //return weather as an array
+  return (array)$yw_channel['wind']['chill'];
+}

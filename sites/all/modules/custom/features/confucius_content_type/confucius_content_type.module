@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the confucius_content_type feature.
+ */
+
+include_once 'confucius_content_type.features.inc';

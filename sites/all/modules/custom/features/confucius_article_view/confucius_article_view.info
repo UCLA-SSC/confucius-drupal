@@ -1,0 +1,12 @@
+name = Confucius Article View
+description = View which displays content type articles
+core = 7.x
+package = Confucius
+php = 5.2.4
+version = 7.x-4.0
+project = confucius_article_view
+dependencies[] = ctools
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = articles
